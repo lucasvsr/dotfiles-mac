@@ -74,26 +74,6 @@ if command -v gping > /dev/null
 
 end
 
-if command -v rpm-ostree > /dev/null
-
-    abbr -a -g changelogs 'rpm-ostree db diff --changelogs'
-
-end
-
-if command -v distrobox-host-exec > /dev/null
-
-    abbr -a -g dhe 'distrobox-host-exec'
-    abbr -a -g dhes 'distrobox-host-exec sudo'
-    abbr -a -g dhb 'distrobox-host-exec bash'
-
-end
-
-if command -v paru > /dev/null && command -v flatpak > /dev/null
-
-    abbr -a -g upd 'paru && flatpak update'
-
-end
-
 if command -v oc > /dev/null
 
     abbr -a -g opf 'oc port-forward'

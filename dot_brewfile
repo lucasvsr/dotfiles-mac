@@ -8,6 +8,8 @@ brew "bat-extras"
 brew "btop"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
+# Reference implementation for the Development Containers specification
+brew "devcontainer"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Pack, ship and run any application as a lightweight container
@@ -24,6 +26,8 @@ brew "fisher"
 brew "gh"
 # Open-source GitLab command-line tool
 brew "glab"
+# GNU Privacy Guard (OpenPGP)
+brew "gnupg"
 # Ping, but with a graph
 brew "gping"
 # Tool for glamorous shell scripts
@@ -54,6 +58,10 @@ cask "intellij-idea"
 cask "maccy"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Collaboration platform for API development
+cask "postman"
+# Screenshot measurement and annotation tool
+cask "shottr"
 # SSH client
 cask "termius"
 vscode "anysphere.remote-ssh"

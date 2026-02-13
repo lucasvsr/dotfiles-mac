@@ -8,6 +8,12 @@ if command -v trash >/dev/null
 
 end
 
+if command -v brew >/dev/null
+
+    abbr -a -g brewd 'brew bundle dump --file ~/.brewfile --describe --force'
+
+end
+
 if command -v chezmoi >/dev/null
 
     abbr -a -g cz 'chezmoi'

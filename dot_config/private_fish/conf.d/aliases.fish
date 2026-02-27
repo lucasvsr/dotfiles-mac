@@ -94,3 +94,5 @@ if command -v ss > /dev/null
     abbr -a -g olist 'sudo ss -tuln | grep LISTEN'
 
 end 
+
+abbr -a -g gocp 'git cherry-pick 7dd0e708d54e56414dcc0bc79890a546dc6a4072'

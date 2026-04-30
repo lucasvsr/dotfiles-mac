@@ -46,6 +46,8 @@ brew "telnet"
 brew "the_silver_searcher"
 # Simplified and community-driven man pages
 brew "tldr"
+# Chromium based browser
+cask "arc"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Databases and SQL IDE
@@ -70,13 +72,13 @@ cask "obs"
 cask "postman"
 # Screenshot measurement and annotation tool
 cask "shottr"
+# API testing tool
+cask "soapui"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # SSH client
 cask "termius"
-# Open-source code editor
-cask "visual-studio-code"
-vscode "github.copilot-chat"
-vscode "miguelsolorio.min-theme"
-vscode "ms-azuretools.vscode-containers"
-vscode "ms-vscode-remote.remote-containers"
+vscode "anysphere.remote-ssh"
+vscode "castrogusttavo.min-theme"
+vscode "laurenttreguier.vscode-simple-icons"
+vscode "vivaxy.vscode-conventional-commits"

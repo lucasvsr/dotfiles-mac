@@ -74,11 +74,18 @@ cask "postman"
 cask "shottr"
 # API testing tool
 cask "soapui"
+# Sound and audio controller
+cask "soundsource"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # SSH client
 cask "termius"
+vscode "anysphere.remote-containers"
 vscode "anysphere.remote-ssh"
 vscode "castrogusttavo.min-theme"
+vscode "docker.docker"
 vscode "laurenttreguier.vscode-simple-icons"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "redhat.vscode-xml"
 vscode "vivaxy.vscode-conventional-commits"

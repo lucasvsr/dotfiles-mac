@@ -60,8 +60,6 @@ cask "font-caskaydia-mono-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Utility to hide menu bar items
-cask "hiddenbar"
 # Java IDE by JetBrains
 cask "intellij-idea"
 # Clipboard manager
@@ -70,22 +68,16 @@ cask "maccy"
 cask "obs"
 # Collaboration platform for API development
 cask "postman"
-# Screenshot measurement and annotation tool
-cask "shottr"
 # API testing tool
 cask "soapui"
-# Sound and audio controller
-cask "soundsource"
+# Subtitle editor
+cask "subtitle-edit"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # SSH client
 cask "termius"
-vscode "anysphere.remote-containers"
-vscode "anysphere.remote-ssh"
-vscode "castrogusttavo.min-theme"
-vscode "docker.docker"
-vscode "laurenttreguier.vscode-simple-icons"
+# Open-source code editor
+cask "visual-studio-code"
+vscode "miguelsolorio.min-theme"
 vscode "ms-azuretools.vscode-containers"
-vscode "ms-azuretools.vscode-docker"
-vscode "redhat.vscode-xml"
-vscode "vivaxy.vscode-conventional-commits"
+vscode "ms-vscode-remote.remote-containers"

@@ -46,8 +46,6 @@ brew "telnet"
 brew "the_silver_searcher"
 # Simplified and community-driven man pages
 brew "tldr"
-# Chromium based browser
-cask "arc"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Databases and SQL IDE

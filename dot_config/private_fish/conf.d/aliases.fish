@@ -10,7 +10,7 @@ end
 
 if command -v brew >/dev/null
 
-    abbr -a -g brewd 'brew bundle dump --file ~/.brewfile --describe --force'
+    abbr -a -g brewd 'brew bundle dump --file ~/.brewfile --force'
 
 end
 
